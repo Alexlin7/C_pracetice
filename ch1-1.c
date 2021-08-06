@@ -3,5 +3,7 @@
 #include <stdio.h>
 
 void main(void){
-    printf("C is so fucking difficult");
+    printf("C is so difficult\n");
+    printf("but I well try");
+
 }
