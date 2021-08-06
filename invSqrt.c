@@ -3,7 +3,7 @@
 
 float invSqrt(float x){
     int i=*(int*)&x;
-    i=1597463007-(i>>1);
+    i=1597463007-(i>>1);    //why i is this number?I don't know.
     x=*(float*)&i;
     return x;
 }
